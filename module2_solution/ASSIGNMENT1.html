@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>module2</title>
+   
+    <link rel="stylesheet"  href="css/style3.css">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        h1{
+            font-weight: bold;
+            text-align: center;
+            font-style: italic;
+            margin:15px;
+        }
+        .div1{
+            background-color:rgba(255, 192, 203, 0.821);
+            padding:4px;
+            border:4px solid black;
+            /*margin-bottom: 5px;*/
+            width:100px;
+            text-align:center;
+            float:right;
+            font-size:150%;
+        }
+        .item1{
+            background-color:gray;
+            padding:4px;
+            margin: 10px;
+            font-weight: bolder;
+            clear:both;
+            border: 4px solid black;
+            width:500px;
+        }
+        
+        
+        .item2{
+            background-color:gray;
+            padding:4px;
+            margin: 10px;
+            font-weight: bolder;
+            clear:both;
+            border: 4px solid black;
+            width:500px;
+        }
+
+        .div2{
+            background-color:rgba(255, 0, 0, 0.551);
+            padding:4px;
+            border:4px solid black;
+            /*margin-bottom: 5px;*/
+            width:100px;
+            text-align:center;
+            float:right;
+            font-size:150%;
+            color:white;
+        }
+
+
+        .item3{
+            background-color:gray;
+            padding:4px;
+            margin: 10px;
+            font-weight: bolder;
+            clear:both;
+            border: 4px solid black;
+            width:500px;
+        }
+
+        .div3{
+            background-color:rgba(255, 255, 0, 0.589);
+            padding:4px;
+            border:4px solid black;
+            /*margin-bottom: 5px;*/
+            width:100px;
+            text-align:center;
+            float:right;
+            font-size:150%;
+        }
+        
+
+        @media (min-width:1200px){
+            .col-lg-1, .col-lg-3, .col-lg-4, .col-lg-6{
+                float:left;
+                border:4px solid black;
+            }
+            .col-lg-1{
+                width:8.33%;
+            }
+            .col-lg-3{
+                width:25%;
+            }
+            .col-lg-6{
+                width:49.99%;
+            }
+        }
+
+        @media (min-width:991px) and (max-width:1199px){
+
+            .col-md-1, .col-md-3, .col-md-4, .col-md-6{
+                float:left;
+                border:4px solid black;
+            }
+            .col-md-1{
+                width:8.33%;
+            }
+            .col-md-3{
+                width:25%;
+            }
+            .col-md-6{
+                width:49.99%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Our Menu</h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="item1 col-lg-3 col-md-6"><p class="div1">Chicken</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui perferendis velit earum odio aut vitae ab provident alias illo accusamus odit doloribus ratione possimus architecto, maxime atque. Alias iusto mollitia necessitatibus quod deserunt ipsa, repudiandae explicabo obcaecati optio maiores, modi recusandae officiis. Fuga minus autem harum sunt temporibus quos ducimus.</p></div>
+            <div class="item2 col-lg-3 col-md-6"><div class="div2">Beef</div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quis qui animi eum aperiam voluptatum. Aperiam nam quidem beatae sint unde blanditiis ea, non explicabo quas quam asperiores excepturi hic cum sed, modi distinctio debitis maxime quae error, dicta nostrum commodi nobis vero repellat. Pariatur eius necessitatibus dolore quisquam repudiandae!</p></div>
+            <div class="item3 col-lg-3 col-md-6"><div class="div3">Sushi</div><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis distinctio hic fugiat iure repellat deleniti ea eaque delectus culpa eos similique totam sint maxime, rerum nam quisquam nesciunt corporis atque quis et quod saepe? Eligendi animi doloribus, dolore, repudiandae minus ea laboriosam id voluptates quisquam odio enim nam ipsum. Nemo.</p></div>
+            
+        </div>
+    </div>
+    
+</body>
+</html>
